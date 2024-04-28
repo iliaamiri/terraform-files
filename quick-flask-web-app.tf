@@ -1,4 +1,15 @@
 
+# Flask app boilerplate
+
+#from flask import Flask
+#app = Flask(__name__)
+#
+#@app.route('/')
+#def hello_cloud():
+#    return 'Hello Cloud!'
+#
+#app.run(host='0.0.0.0')
+
 # Create network and subnetwork
 resource "google_compute_network" "vpc_network" {
   name                    = "my-custom-mode-network"
